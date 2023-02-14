@@ -1,6 +1,6 @@
 # MohrsCircle-python-
 
-This is a program that calculates the Mohr's circle representation for given normal stresses in the x and y direction, and the shear stress. The output is a graph that displays the Mohr's circle, which is a graphical representation of the relationships between the normal stresses and shear stress.
+This is a program that calculates the Mohr's Circle plot given the normal stresses in the x and y direction and the shear stress. The output is a graph that displays Mohr's circle, which is a graphical representation of the relationships between the normal stresses and shear stress.
 
 Dependencies
 This program requires two packages, numpy and matplotlib. These packages can be installed by running pip install numpy matplotlib.
