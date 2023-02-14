@@ -24,8 +24,8 @@ def MohrsCirclePlaneStress(nx, ny, tau):
     # Equation of circle
     y1 = np.linspace(-2.5 * abs(tau_max), 2.5*abs(tau_max), num=1000)
     y2 = np.linspace(2.5 * abs(tau_max), -2.5*abs(tau_max), num=1000)
-    sigma_xprime1 = np.ones(y1.shape) * sigma_avg + np.sqrt(R ** 2 - y1 ** 2)
-    sigma_xprime2 = np.ones(y2.shape) * sigma_avg - np.sqrt(R ** 2 - y2 ** 2)
+    sigma_xprime1 = np.ones(y1.shape) * sigma_avg + np.sqrt(R ** 2 - y1 ** 2);
+    sigma_xprime2 = np.ones(y2.shape) * sigma_avg - np.sqrt(R ** 2 - y2 ** 2);
     # Plot Circle
     plt.plot(sigma_xprime1, y1, label='shear(normal)')
     plt.plot(sigma_xprime2, y2, label='shear(normal)')
