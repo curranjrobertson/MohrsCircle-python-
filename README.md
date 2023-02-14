@@ -8,9 +8,8 @@ This program requires two packages, numpy and matplotlib. These packages can be 
 How to Run the Program
 The program can be run by executing the following command in a terminal or command prompt:
 
-php
-Copy code
-python3 <filename>.py
+python3 MohrsCirclePlaneStress.py
+
 The program will prompt the user to input the values for the normal stress in the x-direction, the normal stress in the y-direction, and the shear stress. After the inputs have been entered, the program will generate a plot of the Mohr's circle representation.
 
 Code Explanation
